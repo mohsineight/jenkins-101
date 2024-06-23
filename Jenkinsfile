@@ -4,6 +4,9 @@ pipeline {
             label 'docker-agent-python'
             }
       }
+    environment {
+        path = "C:\Users\Mohsin\AppData\Local\Programs\Python\Python312\python.exe"
+    }
     triggers {
         pollSCM '* * * * *'
     }
