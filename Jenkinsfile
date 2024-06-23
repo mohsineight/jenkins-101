@@ -5,7 +5,7 @@ pipeline {
             }
       }
     environment {
-        path = "C:\Users\Mohsin\AppData\Local\Programs\Python\Python312\python.exe"
+        PATH = "C:\Users\Mohsin\AppData\Local\Programs\Python\Python312\python.exe"
     }
     triggers {
         pollSCM '* * * * *'
